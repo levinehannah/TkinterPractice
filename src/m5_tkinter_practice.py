@@ -3,7 +3,7 @@ This project lets you try out Tkinter/Ttk and practice it!
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
          their colleagues and Hannah Levine.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import tkinter
 from tkinter import ttk
@@ -98,8 +98,10 @@ def print_consent(entry_box):
 
 def print_contents(entry_box, entry_boxone):
     s = entry_box.get()
-    n = int(entry_boxone.get())
+    n = int(entry_box.get())
     for _ in range(n):
         print(s)
+
+
 
 main()
