@@ -77,7 +77,7 @@ def main():
     button3['command'] = (lambda: print_contents(entry_box, entry_boxone))
     button3.grid()
     # ------------------------------------------------------------------
-    # TODO: 8. As time permits, do other interesting GUI things!
+    # DONE: 8. As time permits, do other interesting GUI things!
     # ------------------------------------------------------------------
     new = ttk.Combobox()
 
